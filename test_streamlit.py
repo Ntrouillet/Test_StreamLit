@@ -14,6 +14,8 @@ img_bug = cv2.imread('Etiquette_sourire_info_bug.png')
 #Chemin de Tesseract
 # pytesseract.pytesseract.tesseract_cmd = r'.`\Tesseract\tesseract.exe'
 
+st.image([img_correct, img_bug], width = 300)
+
 #Config de tesseract
 custom_config = '--oem 1 --psm 7'
 
