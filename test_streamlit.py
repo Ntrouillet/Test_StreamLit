@@ -8,8 +8,8 @@ import pytesseract
 from datetime import datetime, date, timedelta
 
 #Image chargée
-img_correct = cv2.imread('Etiquette_sourire_info.PNG')
-img_bug = cv2.imread('Etiquette_sourire_info_bug.PNG')
+img_correct = cv2.imread('Etiquette_sourire_info.png')
+img_bug = cv2.imread('Etiquette_sourire_info_bug.png')
 
 #Chemin de Tesseract
 # pytesseract.pytesseract.tesseract_cmd = r'.`\Tesseract\tesseract.exe'
