@@ -1,5 +1,5 @@
 numpy
 pandas
-python3-opencv
+opencv-python
 pytesseract
 streamlit
