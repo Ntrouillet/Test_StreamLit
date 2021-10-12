@@ -19,8 +19,6 @@ custom_config = '--oem 1 --psm 7'
 
 #Titre
 st.title('TEST ETIQUETAGE')
-#Affiche l'image chargée
-st.image([img_correct, img_bug], width = 300)
 
 type_image = st.radio("Quelle image tester",('Avec la date', 'Sans la date'))
 
@@ -65,10 +63,4 @@ if st.button('Test Date'):
 else:
     st.write('')
 
-add_selectbox = st.sidebar.selectbox(
-    "How would you like to be contacted?",
-    ("Email", "Home phone", "Mobile phone")
-)
-
-st.sidebar.image(img_correct)
 
